@@ -1,0 +1,5 @@
+﻿  22_10_04_003_PrintScan_CP3.cpp
+D:\DSI208\Escritorio\Angel Jared\22_10_04_003_PrintScan_CP3\22_10_04_003_PrintScan_CP3.cpp(39,11): warning C4477: 'scanf' : la cadena de formato '%o' requiere un argumento de tipo 'unsigned int *', pero el argumento variádico 1 tiene el tipo 'double *'
+D:\DSI208\Escritorio\Angel Jared\22_10_04_003_PrintScan_CP3\22_10_04_003_PrintScan_CP3.cpp(40,12): warning C4477: 'printf' : la cadena de formato '%o' requiere un argumento de tipo 'unsigned int', pero el argumento variádico 1 tiene el tipo 'double'
+D:\DSI208\Escritorio\Angel Jared\22_10_04_003_PrintScan_CP3\22_10_04_003_PrintScan_CP3.cpp(48,14): warning C4805: '==': combinación no segura del tipo 'bool' y el tipo 'int' en la operación
+  22_10_04_003_PrintScan_CP3.vcxproj -> D:\DSI208\Escritorio\Angel Jared\22_10_04_003_PrintScan_CP3\Debug\22_10_04_003_PrintScan_CP3.exe

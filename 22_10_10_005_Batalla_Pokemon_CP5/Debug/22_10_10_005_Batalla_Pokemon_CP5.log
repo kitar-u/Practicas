@@ -1,0 +1,5 @@
+﻿  22_10_10_005_Batalla_Pokemon_CP5.cpp
+D:\DSI208\Escritorio\Angel Jared\22_10_10_005_Batalla_Pokemon_CP5\22_10_10_005_Batalla_Pokemon_CP5.cpp(46,14): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\DSI208\Escritorio\Angel Jared\22_10_10_005_Batalla_Pokemon_CP5\22_10_10_005_Batalla_Pokemon_CP5.cpp(160,14): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\DSI208\Escritorio\Angel Jared\22_10_10_005_Batalla_Pokemon_CP5\22_10_10_005_Batalla_Pokemon_CP5.cpp(274,14): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  22_10_10_005_Batalla_Pokemon_CP5.vcxproj -> D:\DSI208\Escritorio\Angel Jared\22_10_10_005_Batalla_Pokemon_CP5\Debug\22_10_10_005_Batalla_Pokemon_CP5.exe
