@@ -31,7 +31,7 @@ int main()
     //String
     std::string Nombre;
     std::cout << "Hola usuario ingrese su nombre" << std::endl;
-    std::getline(std::cin , Nombre);
+    std::getline(std::cin, Nombre);
     std::cout << "Su nombre es " << Nombre << std::endl;
 
     //Int

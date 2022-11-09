@@ -46,23 +46,28 @@ int main()
 	int fecha[3] = { 2011,2010,2019 };
 	*/
 	
-	std::string juego[9];
-	std::string Autor[9];
-	int Fecha[9];
+	std::string juego[3];
+	std::string Autor[3];
+	std::string fecha[3];
 		for (int i = 0; i < 3; i++)
 		{
 			std::cout << "Juego " << i + 1 << "\n";
 			std::getline(std::cin, juego[i]);
-			for (int j = 0; j < 3; j++)
-			{
-				std::cout << "Autor " << j + 1 << "\n";
-				std::getline(std::cin, juego[j]);
-				for (int k = 0; k < 3; k++)
-				{
-					std::cout << "Año " << k + 1 << "\n";
-					std::cin >> Fecha[k];
-				}
-			}
+			std::cout << "Autor " << i + 1 << "\n";
+			std::getline(std::cin, Autor[i]);
+			std::cout << "Año " << i + 1 << "\n";
+			std::getline(std::cin, fecha[i]);
+		}
+		std::cin.get();
+		system("CLS");
+		std::cout << "Biblioteca de juegos guardados \n";
+		std::cout << " \n";
+		for (int i = 0; i < 3; i++)
+		{
+			std::cout << "Juego " << i + 1 << " -> " << juego[i] << "\n";
+			std::cout << "Autor " << i + 1 << " -> " << Autor[i] << "\n";
+			std::cout << "Año " << i + 1 << " -> " << fecha[i] << "\n";
+			std::cout << " \n";
 		}
 }
 
