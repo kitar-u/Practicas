@@ -41,9 +41,9 @@ int main()
 	{
 	case 'A':
 	case 'a':
+			srand(time(NULL));
 		while (PJ >= 1 && BOSS >= 1)
 		{
-			srand(time(NULL));
 			char actH;
 			int defR;
 			std::cout << "\nUndead " << "HP: " << PJ << "\n";
@@ -155,9 +155,9 @@ int main()
 		break;
 	case 'B':
 	case 'b':
+			srand(time(NULL));
 		while (PJ >= 1 && BOSS >= 1)
 		{
-			srand(time(NULL));
 			char actH;
 			int defR;
 			std::cout << "\nHunter " << "HP: " << PJ << "\n";
@@ -269,9 +269,9 @@ int main()
 		break;
 	case 'C':
 	case 'c':
+			srand(time(NULL));
 		while (PJ >= 1 && BOSS >= 1)
 		{
-			srand(time(NULL));
 			char actH;
 			int defR;
 			std::cout << "\nTarnished " << "HP: " << PJ << "\n";

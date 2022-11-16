@@ -8,6 +8,10 @@
 #include <stdlib.h> //Nos protege de bucles infinitos
 #include <cstdlib> //Libreria de C para entradas y salidas o control de sistemas
 #include <Windows.h> //Funciones de control de programa mediante pausas y dormidas
+void soli();
+void Mostrar(int**, int, int);
+int** PM, fil, col;
+
 int main()
 {
 	// Declaracion de un puntero.
@@ -24,17 +28,16 @@ int main()
 	system("pause");
 	apuntador = NULL;
 	*/
-	int Matriz[2][3] = { {1,2,4},{9,8,2} };
-
-	/*
+	int Matriz[2][3];
+	srand(time(NULL));
+	std::cout << "Matriz de 2x3: \n";
 	for (int i = 0; i < (sizeof(Matriz) / (sizeof(Matriz[0]))); i++)
 	{
 		for (int j = 0; j < (sizeof(Matriz[0]) / (sizeof(Matriz[0][0]))); j++)
 		{
-
+			Matriz[i][j] = rand() %10;
 	    }
 	}
-	*/
 
 	for (int i = 0; i < (sizeof(Matriz) / (sizeof(Matriz[0]))); i++)
 	{
@@ -44,7 +47,51 @@ int main()
 		}
 		std::cout << "\n";
 	}
+	std::cout << "Matriz de nxm: \n";
+	soli();
+	Mostrar(PM, fil, col);
+	for (int i = 0; i < fil; i++)
+	{
+		delete[] PM[i];
+	}
+	delete[] PM;
+
+	return 0;
 }
+void soli()
+{
+	std::cout << "Elija el numero de filas: ";
+	std::cin >> fil;
+	std::cout << "\nElija el numero de columnas: ";
+	std::cin >> col;
+	PM = new int* [fil];
+	for (int i = 0; i < fil; i++)
+	{
+		PM[i] = new int[col];
+	}
+	std::cout << "\nElementos de la matriz: \n";
+	for (int i = 0; i < fil; i++)
+	{
+		for (int j = 0; j < col; j++)
+		{
+			std::cout << "Ingrese un numero [" << i << "][" << j << "]: ";
+			std::cin >> *(*(PM + i) + j);
+		}
+	}
+}
+void Mostrar(int** PM, int fil, int col)
+{
+	std::cout << "\n\nMostrando La Matriz: \n";
+	for (int i = 0; i < fil; i++)
+	{
+		for (int j = 0; j < col; j++)
+		{
+			std::cout << *(*(PM + i) + j) << " ";
+		}
+		std::cout << "\n";
+	}
+}
+
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
