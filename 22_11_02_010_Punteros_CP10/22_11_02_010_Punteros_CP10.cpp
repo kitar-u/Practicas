@@ -69,13 +69,42 @@ void soli()
 	{
 		PM[i] = new int[col];
 	}
-	std::cout << "\nElementos de la matriz: \n";
-	for (int i = 0; i < fil; i++)
-	{
-		for (int j = 0; j < col; j++)
+	if (fil > 3 && col > 3) {
+		for (int i = 0; i < fil; i++)
 		{
-			std::cout << "Ingrese un numero [" << i << "][" << j << "]: ";
-			std::cin >> *(*(PM + i) + j);
+			for (int j = 0; j < col; j++)
+			{
+				PM[i][j] = rand() % 10;
+			}
+		}
+	}
+	if (fil > 3 && col <= 3) {
+		for (int i = 0; i < fil; i++)
+		{
+			for (int j = 0; j < col; j++)
+			{
+				PM[i][j] = rand() % 10;
+			}
+		}
+	}
+	if (fil <= 3 && col > 3) {
+		for (int i = 0; i < fil; i++)
+		{
+			for (int j = 0; j < col; j++)
+			{
+				PM[i][j] = rand() % 10;
+			}
+		}
+	}
+	if (fil <= 3 && col <= 3) {
+		std::cout << "\nElementos de la matriz: \n";
+		for (int i = 0; i < fil; i++)
+		{
+			for (int j = 0; j < col; j++)
+			{
+				std::cout << "Ingrese un numero [" << i << "][" << j << "]: ";
+				std::cin >> *(*(PM + i) + j);
+			}
 		}
 	}
 }
