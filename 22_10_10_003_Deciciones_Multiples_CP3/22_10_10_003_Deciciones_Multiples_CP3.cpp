@@ -49,6 +49,7 @@ int main()
         std::cout << "Por que pones algo que no esta? \n";
     }
 
+    /*
     int ocp = 0;
     std::cout << "Buenas que quieres hacer? \n" << "Ocp 0.-nada \n" << "ocp 1.- Nada menos \n";
     std::cin >> ocp;
@@ -66,6 +67,7 @@ int main()
     default:
         std::cout << "Sorry chavo te equivocaste pero durisimo \n";
     }
+    */
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar

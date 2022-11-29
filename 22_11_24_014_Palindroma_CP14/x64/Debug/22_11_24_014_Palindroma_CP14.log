@@ -1,0 +1,4 @@
+﻿  22_11_24_014_Palindroma_CP14.cpp
+D:\DSI208\Escritorio\Angel Jared\Practicas\22_11_24_014_Palindroma_CP14\22_11_24_014_Palindroma_CP14.cpp(22,26): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\DSI208\Escritorio\Angel Jared\Practicas\22_11_24_014_Palindroma_CP14\22_11_24_014_Palindroma_CP14.cpp(14): warning C4715: 'palindromo': no todas las rutas de acceso de control devuelven un valor
+  22_11_24_014_Palindroma_CP14.vcxproj -> D:\DSI208\Escritorio\Angel Jared\Practicas\22_11_24_014_Palindroma_CP14\x64\Debug\22_11_24_014_Palindroma_CP14.exe
