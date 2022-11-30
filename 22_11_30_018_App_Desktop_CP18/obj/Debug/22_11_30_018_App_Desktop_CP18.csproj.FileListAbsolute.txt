@@ -1,0 +1,10 @@
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\bin\Debug\22_11_30_018_App_Desktop_CP18.exe.config
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\bin\Debug\22_11_30_018_App_Desktop_CP18.exe
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\bin\Debug\22_11_30_018_App_Desktop_CP18.pdb
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\obj\Debug\22_11_30_018_App_Desktop_CP18.csproj.AssemblyReference.cache
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\obj\Debug\_22_11_30_018_App_Desktop_CP18.Form1.resources
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\obj\Debug\_22_11_30_018_App_Desktop_CP18.Properties.Resources.resources
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\obj\Debug\22_11_30_018_App_Desktop_CP18.csproj.GenerateResource.cache
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\obj\Debug\22_11_30_018_App_Desktop_CP18.csproj.CoreCompileInputs.cache
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\obj\Debug\22_11_30_018_App_Desktop_CP18.exe
+D:\DSI208\Escritorio\Angel Jared\22_11_30_018_App_Desktop_CP18\obj\Debug\22_11_30_018_App_Desktop_CP18.pdb
