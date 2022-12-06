@@ -1,4 +1,5 @@
 ﻿  22_11_07_011_Objetos_CP11.cpp
-D:\DSI208\Escritorio\Angel Jared\Practicas\22_11_07_011_Objetos_CP11\22_11_07_011_Objetos_CP11.cpp(18,25): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-D:\DSI208\Escritorio\Angel Jared\Practicas\22_11_07_011_Objetos_CP11\22_11_07_011_Objetos_CP11.cpp(24,23): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+D:\DSI208\Escritorio\Angel Jared\Practicas\22_11_07_011_Objetos_CP11\22_11_07_011_Objetos_CP11.cpp(17,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\DSI208\Escritorio\Angel Jared\Practicas\22_11_07_011_Objetos_CP11\22_11_07_011_Objetos_CP11.cpp(19,25): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+D:\DSI208\Escritorio\Angel Jared\Practicas\22_11_07_011_Objetos_CP11\22_11_07_011_Objetos_CP11.cpp(25,23): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
   22_11_07_011_Objetos_CP11.vcxproj -> D:\DSI208\Escritorio\Angel Jared\Practicas\22_11_07_011_Objetos_CP11\x64\Debug\22_11_07_011_Objetos_CP11.exe

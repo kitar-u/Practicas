@@ -14,6 +14,7 @@ struct alumno
 }jugador;
 int main()
 {
+	srand(time(NULL));
 	alumno flores;
 	flores.ataque = rand() % 50;
 	flores.vida = rand() % 50;
@@ -25,9 +26,14 @@ int main()
 	Juls.vida = rand() % 50;
 	Juls.defensa = rand() % 50;
 	Juls.velocidad = rand() % 50;
+
+
 	if (flores.ataque < Juls.ataque)
 	{
 		std::cout << "Juls es mas poderoso " << std::endl;
+	}
+	else {
+		std::cout << "Flores es mas poderoso " << std::endl;
 	}
 }
 
